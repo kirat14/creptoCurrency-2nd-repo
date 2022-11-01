@@ -1,0 +1,189 @@
+
+
+@import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or Understrap variables here
+
+// @import "assets/bootstrap4/bootstrap";      // <-------- Loads Bootstrap4
+@import "assets/bootstrap5/bootstrap";      // <-------- Loads Bootstrap4
+@import "theme/understrap";  // <-------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
+@import "theme/colors";           // <-------- This creates the necessary bootstrap color classes.
+@import "theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
+// @import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+@import "theme/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you dont use the corresponding scripts/fonts comment em out
+@import "assets/fontawesome/font-awesome";    // <-------- Font Awesome Icon font
+
+// Any additional imported files //
+@import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
+
+
+
+// our project needs Classic Solid, Brands, and Sharp Solid 
+// @import "./assets/fontawesome/font-awesome.scss";
+
+// .med-px-160{
+//     padding-left: 10rem;
+//     padding-right: 10rem;
+// }
+// .med-py-34{
+//     padding-top: 2.125rem;
+//     padding-bottom: 2.125rem;
+// }
+// .med-pl-160{
+//     padding-left: 10rem;
+// }
+// .med-pr-160{
+//     padding-right: 10rem;
+// }
+
+
+// // headers
+// .med-max-width {
+//     max-width: 40rem;
+// }
+
+// // buttons
+// .med-btn-p-1{
+//     padding-left: 2.8125rem;
+//     padding-right: 4.0625rem;
+//     // padding-top: 1rem;
+//     // padding-bottom: 1rem;
+// }
+// .med-btn-header-custom-width{
+//     padding: 3.125rem;
+// }
+// .med-btn-header-border-radius{
+//     border-radius: 1.5rem;
+// }
+// .med-btn-custom-width{
+//     max-width: fit-content;
+// }
+
+
+// .med-font-weight-bold {
+//     font-weight: 600;
+// }
+
+// .med-footer-btn-padding-lr{
+//     padding-left: 1.25rem;
+//     padding-right: 1.25rem;
+// }
+// .med-btn-padding-tb{
+//     padding-top: 0.75rem;
+//     padding-bottom: 0.75rem;
+// }
+// .med-btn-padding-tb-input{
+//     padding-top: calc(0.75rem - 2px);
+//     padding-bottom: calc(0.75rem - 2px);
+// }
+// :root{
+//     --br-custom-px: 3px;
+// }
+// .med-form-border-radius-custom-tl{
+//     border-top-left-radius: var(--br-custom-px);
+// }
+// .med-form-border-radius-custom-tr{
+//     border-top-right-radius: var(--br-custom-px);
+// }
+// .med-form-border-radius-custom-bl{
+//     border-bottom-left-radius: var(--br-custom-px);
+// }
+// .med-form-border-radius-custom-br{
+//     border-bottom-right-radius: var(--br-custom-px);
+// }
+// // styling the footer
+// sectino.med-top-footer-section {
+//     padding: 7.5rem 21rem 0 21rem;
+//     position: relative;
+// }
+
+// .med-footer-headers-bottom-spacing{
+//     margin-bottom: 2.625rem;
+// }
+
+// .med-contact-list-icons-margin-left{
+//     margin-left: 2.25rem;
+// }
+// .med-absolute-list-icon-custom{
+//     position: absolute;
+//     left: -2.25rem;
+//     font-size: 1.25rem;
+// }
+
+// footer .form-control.border-secondary::placeholder{
+
+//     color: $secondary;
+// }
+// // copyright custom styling
+// section.med-copyright-section{
+//     padding-bottom: 7.5rem;
+//     padding-left: 7.75rem;
+//     padding-right: 13.25rem;
+// }
+.med-copy-right-text{
+    font-size: 0.875rem;
+    border-top: 2px solid rgba(34, 39, 55,.18);
+    padding-bottom: 9rem;
+}
+// .med-copyright-position{
+//     margin-right: 3px;
+//     padding-left: 5.3125rem;
+// }
+
+// // before footer section
+// .md-top-margin-middle-section-custom{
+//     padding-bottom: 10rem;
+//     padding-top: 7.5rem;
+    
+// }
+// bg images
+.bottom-section{
+    background: url('../img/Mask\ Group\ 1.png') no-repeat 100%  0px,linear-gradient(0deg, rgba(67,70,78,1) 0%, rgba(29,33,47,1) 52%);
+    background-size: 50%;
+}
+// all blur background
+body main  {
+    background: url('../img/top-left-blur.png') no-repeat 100% -20rem;
+    background-position: center -370px;
+}
+// .med-footer-background{
+//     position: absolute;
+    
+//   top: 0;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   img{
+//     min-width: 80%;
+//   }
+// }
+
+
+
+// // input custom styling
+// .input-group > .form-control{
+//     border-right: 0px;
+// }
+
+
+// custom carousel
+.med-custom-carousel{
+    padding-top: 30px;
+    li {
+        height: 0.625rem;
+        width: 0.625rem;
+        border-radius: 50%;
+    }
+} 
+    
+.carousel-control-prev,
+.carousel-control-next{
+    top: 1rem;
+    width: 1.5%;
+    z-index: 10;
+}
+.carousel-control-next{
+    right: 45%;
+}
+.carousel-control-prev{
+    left: 45%;
+}

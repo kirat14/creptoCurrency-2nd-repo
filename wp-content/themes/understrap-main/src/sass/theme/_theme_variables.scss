@@ -1,0 +1,162 @@
+// custom colors
+
+$custom-width: 100px;
+$highGreen: #65E6CF; // custom primary color
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+
+$gray-900: #222737; // custom secodnary color
+
+$black:    #000;
+
+
+
+$primary: $highGreen;
+$secondary: $gray-900;
+
+$component-active-bg:         $primary;
+
+// custom font family
+// $headings-font-family:        serif;
+
+$font-family-sans-serif:      'Poppins', sans-serif;
+// $font-family-monospace:       'Poppins', sans-serif;
+
+// custom font size
+$display-font-sizes: (
+  1: 5rem, //80px
+  2: 3.4375rem, // 55px
+  3: 3.125rem, // 50px
+  4: 1.5rem, // 24px
+  5: 1.25rem, // 20px
+  6: 1.125rem // 18px
+) ;
+
+// custom header
+$spacer: 1rem;
+$font-size-base:              1rem;
+$h1-font-size: $font-size-base * 3.75 ;
+$h3-font-size:                $font-size-base * 2.5;
+
+$input-btn-font-size:         1.125rem; // 18px
+$btn-font-size:               $input-btn-font-size;
+
+$headings-font-weight:        600 ;
+
+$h3-font-size:                $font-size-base * 3.125;
+$h4-font-size:                $font-size-base *  1.25;
+$h5-font-size: $font-size-base * 2.5;
+
+$headings-margin-bottom:      $spacer * 2.5;
+$display-font-weight: 400;
+$paragraph-margin-bottom:   0;
+// list items customizing
+
+$list-group-color:                  $gray-900;
+$list-group-bg:                     transparent;
+$list-group-border-color:           none;
+$list-group-border-width:           fit-content;
+$list-group-border-radius:          none;
+
+// font weight customizing
+// $font-weight-lighter:         lighter !default;
+// $font-weight-light:           300 !default;
+// $font-weight-normal:          400 !default;
+$font-weight-bold:            600;
+// $font-weight-bolder:          bolder !default;
+
+
+// line height
+$line-height-sm:              1.875rem;
+
+// spacer
+$spacer: 1rem ;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 2.5,
+  5: $spacer * 3.125, // 50px
+);
+
+
+
+// scss-docs-start form-input-variables
+
+$input-border-radius: 4px;
+$input-bg: transparent;
+// $input-padding-y: 0.75rem;
+
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+// scss-docs-start input-btn-variables
+$input-btn-padding-y:         1rem ;
+$input-btn-padding-x:         1.5rem ;
+$input-height: auto;
+
+$btn-padding-y:               1rem;
+$btn-padding-x:               3.125rem;
+$btn-font-size:               $input-btn-font-size;
+// $btn-line-height:             $input-btn-line-height !default;
+$btn-white-space:             nowrap;
+
+$input-group-addon-border-color:        $secondary;
+$input-group-addon-bg:                  $secondary;
+$input-group-addon-color: $white;
+// $input-border-width:        10px;
+
+// $btn-padding-y-sm:            $input-btn-padding-y-sm !default;
+// $btn-padding-x-sm:            $input-btn-padding-x-sm !default;
+// $btn-font-size-sm:            $input-btn-font-size-sm !default;
+
+// $btn-padding-y-lg:            $input-btn-padding-y-lg !default;
+// $btn-padding-x-lg:            $input-btn-padding-x-lg !default;
+// $btn-font-size-lg:            $input-btn-font-size-lg !default;
+
+$btn-border-width:            1px;
+
+// $btn-font-weight:             $font-weight-normal !default;
+// $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
+// $btn-focus-width:             $input-btn-focus-width !default;
+// $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
+// $btn-disabled-opacity:        .65 !default;
+// $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
+
+
+// $btn-link-hover-color:        $link-hover-color !default;
+// $btn-link-disabled-color:     $gray-600 !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-decoration:                         none;
+$link-hover-decoration:                   none;
+
+
+
+// scss-docs-start navbar-variables
+$navbar-padding-y:                 0;
+$navbar-padding-x:                 0;
+
+$navbar-nav-link-padding-x:        1.875rem;
+
+// Close
+
+// scss-docs-start close-variables
+$carousel-indicator-width: 10px;
+$carousel-indicator-height: 10px;
+
+
