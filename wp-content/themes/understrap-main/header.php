@@ -29,15 +29,19 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	
     <header class="">
 		<nav class="navbar navbar-main navbar-expand-lg navbar-dark" id="navbar-main">
-			<div class="container p-0">
+			<div class="container position-relative p-0">
 				<a class="navbar-brand" href="index.html">
-				<?php if(function_exists('the_custom_logo')){
-				// the_custom_logo();
-				$custom_logo_id = get_theme_mod('custom_logo');
-				$logo = wp_get_attachment_image_src($custom_logo_id);
-				// then replace the source with $logo[0] in the code
-			} ?>
-            <img src=<?php echo get_template_directory_uri() . '/img/website-logo.png' ?> alt="" > 
+					<?php if(function_exists('the_custom_logo')){
+					// the_custom_logo();
+					$custom_logo_id = get_theme_mod('custom_logo');
+					$logo = wp_get_attachment_image_src($custom_logo_id);
+					// then replace the source with $logo[0] in the code
+						} ?>
+            		<img src=<?php echo get_template_directory_uri() . '/img/website-logo.png' ?> alt="" > 
+					
+				<div class="position-absolute med-top-light-position w-50">
+					<img src=<?php echo get_template_directory_uri() . '/img/topLight.png' ?> >
+				</div>
 				</a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>

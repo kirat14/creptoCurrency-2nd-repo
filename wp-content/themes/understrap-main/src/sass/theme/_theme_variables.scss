@@ -8,7 +8,10 @@ $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
 $gray-400: #ced4da;
-$gray-500: #adb5bd;
+
+
+$gray-500: #91939B; // third custom color
+
 $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
@@ -21,6 +24,7 @@ $black:    #000;
 
 $primary: $highGreen;
 $secondary: $gray-900;
+$info:          $gray-500;
 
 $component-active-bg:         $primary;
 
@@ -152,6 +156,8 @@ $navbar-padding-y:                 0;
 $navbar-padding-x:                 0;
 
 $navbar-nav-link-padding-x:        1.875rem;
+$navbar-dark-color:                 #91939B;
+
 
 // Close
 

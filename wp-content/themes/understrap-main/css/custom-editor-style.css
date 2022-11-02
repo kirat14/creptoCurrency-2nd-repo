@@ -435,7 +435,7 @@ progress {
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
+  --bs-gray-500: #91939B;
   --bs-gray-600: #6c757d;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
@@ -443,7 +443,7 @@ progress {
   --bs-primary: #65E6CF;
   --bs-secondary: #222737;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #91939B;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -451,7 +451,7 @@ progress {
   --bs-primary-rgb: 101, 230, 207;
   --bs-secondary-rgb: 34, 39, 55;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 145, 147, 155;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -573,15 +573,15 @@ progress {
 }
 
 .table-info {
-  --bs-table-bg: #cff4fc;
-  --bs-table-striped-bg: #c5e8ef;
+  --bs-table-bg: #e9e9eb;
+  --bs-table-striped-bg: #dddddf;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #badce3;
+  --bs-table-active-bg: #d2d2d4;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #bfe2e9;
+  --bs-table-hover-bg: #d8d8d9;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #badce3;
+  border-color: #d2d2d4;
 }
 
 .table-warning {
@@ -958,12 +958,12 @@ progress {
 
 .has-info-color,
 .has-info-color:visited {
-  color: #0dcaf0;
+  color: #91939B;
 }
 
 .has-info-background-color {
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
+  background-color: #91939B;
+  border-color: #91939B;
 }
 
 .has-warning-color,

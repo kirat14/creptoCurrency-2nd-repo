@@ -142,10 +142,10 @@
     background-size: 50%;
 }
 // all blur background
-body main  {
-    background: url('../img/top-left-blur.png') no-repeat 100% -20rem;
-    background-position: center -370px;
-}
+// body main  {
+//     background: url('../img/top-left-blur.png') no-repeat 100% -20rem;
+//     background-position: center -370px;
+// }
 // .med-footer-background{
 //     position: absolute;
     
@@ -187,3 +187,21 @@ body main  {
 .carousel-control-prev{
     left: 45%;
 }
+
+// position top left light
+.med-top-light-position{
+    top: -5rem;
+    left: -25rem;
+}
+
+// position top left light
+.med-bottom-light-position{
+    left: -36rem;
+    top: -15rem;
+}
+
+
+// body gradient
+// body {
+//     background:  linear-gradient(180deg, rgba(34,39,55,1) 0%, rgba(0,0,0,1) 100%);
+// }

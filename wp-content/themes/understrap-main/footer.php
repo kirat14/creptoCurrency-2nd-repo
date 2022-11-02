@@ -17,13 +17,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
-<footer class="bg-primary position-relative">
+<footer class="bg-primary position-relative" style="z-index: 1;">
         <section class="container pt-4">
             <div class="pt-4">
 				<div class="pt-4">
 					<div class="row">
 						<div class="col  d-flex flex-column align-items-center">
-							<img src=<?php echo get_template_directory_uri() . '/img/footer-logo.png' ?> alt="" class="mb-3" style="margin-top: -1rem;">
+							<a href="#">
+								<img src=<?php echo get_template_directory_uri() . '/img/footer-logo.png' ?> alt="" class="mb-3" style="margin-top: -1rem;">
+							</a>
 							<div>
 								<ul class="navbar-nav d-flex flex-row mt-1">
 									<li class="px-2"><a href="#"><i class="fa-brands fa-square-instagram  text-secondary h2 "></i></a></li>
@@ -36,9 +38,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<h4 class="">Contact Us</h4>
 							<div>
 								<ul class="p-0">
-									<li class="list-unstyled p-0 mb-3"><i class="fa-solid fa-phone text-secondary"></i>+1 832.913.5276</li>
-									<li class="list-unstyled p-0 mb-3 mt-1"><i class="fa-solid fa-envelope"></i>contact@fsileads.com</li>
-									<li class="list-unstyled p-0 mb-3 mt-1"><i class="fa-sharp fa-solid fa-location-dot"></i>2717 Commercial Center Blvd. <br>
+									<li class="list-unstyled p-0 mb-3 ps-3 ms-3 position-relative"><i class="fa-solid fa-phone text-secondary position-absolute end-100"></i>+1 832.913.5276</li>
+									<li class="list-unstyled p-0 mb-3 ps-3 ms-3 position-relative mt-1"><i class="fa-solid fa-envelope position-absolute end-100"></i>contact@fsileads.com</li>
+									<li class="list-unstyled p-0 mb-3 ps-3 ms-3 position-relative mt-1"><i class="fa-sharp fa-solid fa-location-dot position-absolute end-100"></i>2717 Commercial Center Blvd. <br>
 										Suite E200 <br>
 										Katy, TX 77494</li>
 								</ul>
@@ -48,10 +50,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<h4 class="">Our Company</h4>
 							<div>
 								<ul class="p-0">
-									<li class="list-unstyled p-0 border-0 mb-3">Home</li>
-									<li class="list-unstyled p-0 border-0 mb-3 mt-1">Our Services</li>
-									<li class="list-unstyled p-0 border-0 mb-3 mt-1">About Us</li>
-									<li class="list-unstyled p-0 border-0 mb-3 mt-1">Contact Us</li>
+									<li class="list-unstyled p-0 border-0 mb-3"><a class="text-secondary" href="#">Home</a></li>
+									<li class="list-unstyled p-0 border-0 mb-3 mt-1"><a class="text-secondary" href="#">Our Services</a></li>
+									<li class="list-unstyled p-0 border-0 mb-3 mt-1"><a class="text-secondary" href="#">About Us</a></li>
+									<li class="list-unstyled p-0 border-0 mb-3 mt-1"><a class="text-secondary" href="#">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -78,8 +80,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 				</div>
             </div>
-			<div class="position-absolute top-0 w-75">
-				<img src=<?php  echo get_template_directory_uri() . '/img/footer-background-texture.png' ?> alt="">
+			<div class="position-absolute top-0 w-75" style="z-index: -1;">
+				<img style="opacity: 0.18;" src=<?php  echo get_template_directory_uri() . '/img/footer-background-texture.png' ?> alt="">
 			</div>
         </section>
         <section class="container med-copy-right-text mt-5 ms-n5 pt-4">
