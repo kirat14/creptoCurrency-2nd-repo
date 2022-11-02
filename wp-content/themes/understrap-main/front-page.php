@@ -26,7 +26,7 @@
                             <h1 class="me-lg-5">Increase Your Sales With Our High Quality Leads</h1>
                             <p class="text-info w-75">There are over 30 million Small Businesses in the United States. Knowing their financial and insurance needs is critical to your wining their business.</p>
                             <div class="mt-4 mb-4">
-                                <ul class="d-flex flex-row p-0 display-6">
+                                <ul class="d-lg-flex flex-row p-0 display-6">
                                     <li class="list-group"><i class="fa-solid fa-circle-check text-primary position-absolute"></i><span class="ms-4 me-4">Targeted Data</span></li>
                                     <li class="list-group"><i class="fa-solid fa-circle-check text-primary position-absolute"></i><span class="ms-4 me-4">Quality Leads</span></li>
                                     <li class="list-group"><i class="fa-solid fa-circle-check text-primary position-absolute"></i><span class="ms-4 me-4">Right Party Contacts</span></li>
@@ -35,7 +35,7 @@
                             <div class="mt-4">
                                 <button type="button" class="btn btn-primary rounded-pill"><a class="text-secondary" href="#">Learn More<i class="fa-solid fa-arrow-right-long ms-3"></i></a></button> 
                             </div>
-                            <div class="d-flex flex-row position-relative mt-5">
+                            <div class="d-lg-flex flex-row position-relative mt-5">
                                 <div class="p-0 me-1">
                                     <h3 class="text-primary mb-0 me-5">6Millions</h3>
                                     <p class="display-4">Benefited Businesses</p>
