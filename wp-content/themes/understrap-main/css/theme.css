@@ -120,7 +120,7 @@ hr {
 }
 
 hr:not([size]) {
-  height: 1px;
+  height: 2px;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -3827,7 +3827,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #65E6CF;
+  color: #222737;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -14690,8 +14690,6 @@ figure.woocommerce-product-gallery__wrapper {
 
 .med-copy-right-text {
   font-size: 0.875rem;
-  border-top: 2px solid rgba(34, 39, 55, 0.18);
-  padding-bottom: 9rem;
 }
 
 .bottom-section {
@@ -14738,4 +14736,9 @@ figure.woocommerce-product-gallery__wrapper {
     width: 90%;
     opacity: 0.15;
   }
+}
+
+/* Footer */
+.dark-mode h6, .dark-mode .h6, .dark-mode h5, .dark-mode .h5, .dark-mode h4, .dark-mode .h4, .dark-mode h3, .dark-mode .h3, .dark-mode h2, .dark-mode .h2, .dark-mode h1, .dark-mode .h1 {
+  color: #222737;
 }/*# sourceMappingURL=theme.css.map */

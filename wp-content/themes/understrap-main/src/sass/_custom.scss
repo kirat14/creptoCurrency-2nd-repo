@@ -163,8 +163,6 @@
 // }
 .med-copy-right-text{
     font-size: 0.875rem;
-    border-top: 2px solid rgba(34, 39, 55,.18);
-    padding-bottom: 9rem;
 }
 // .med-copyright-position{
 //     margin-right: 3px;
@@ -258,3 +256,9 @@
         }
     }
 }
+
+/* Footer */
+.dark-mode{
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    color: $secondary;
+}}
