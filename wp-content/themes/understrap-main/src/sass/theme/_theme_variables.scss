@@ -1,3 +1,4 @@
+$enable-negative-margins: true;
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
@@ -176,5 +177,9 @@ $navbar-dark-color:                 #91939B;
 // scss-docs-start close-variables
 $carousel-indicator-width: 10px;
 $carousel-indicator-height: 10px;
+
+// Alert
+$alert-border-width: 0;
+$alert-border-radius: 15px;
 
 
