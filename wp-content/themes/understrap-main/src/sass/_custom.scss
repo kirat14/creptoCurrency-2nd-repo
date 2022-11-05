@@ -262,3 +262,21 @@
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color: $secondary;
 }}
+
+
+// responsive font-sizes small screens
+h1{
+    @media (max-width: 992px){
+        line-height: 3.875rem;
+        max-width: 90vw;
+
+        span{
+            color: $primary;
+        }
+    }
+}
+h3{
+    @media (max-width: 992px){
+        font-size: calc($h4-font-size + 1.25vw);
+    }
+}
