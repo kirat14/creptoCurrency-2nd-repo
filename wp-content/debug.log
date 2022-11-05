@@ -1,0 +1,24 @@
+[05-Nov-2022 16:44:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php on line 209
+[05-Nov-2022 16:44:47 UTC] PHP Stack trace:
+[05-Nov-2022 16:44:47 UTC] PHP   1. {main}() C:\wamp64\www\creptoCurrency-2nd-repo\wp-cron.php:0
+[05-Nov-2022 16:44:47 UTC] PHP   2. do_action_ref_array() C:\wamp64\www\creptoCurrency-2nd-repo\wp-cron.php:188
+[05-Nov-2022 16:44:47 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:565
+[05-Nov-2022 16:44:47 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 16:44:47 UTC] PHP   5. wp_version_check() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 16:44:47 UTC] PHP   6. trigger_error() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php:209
+[05-Nov-2022 16:44:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php on line 447
+[05-Nov-2022 16:44:47 UTC] PHP Stack trace:
+[05-Nov-2022 16:44:47 UTC] PHP   1. {main}() C:\wamp64\www\creptoCurrency-2nd-repo\wp-cron.php:0
+[05-Nov-2022 16:44:47 UTC] PHP   2. do_action_ref_array() C:\wamp64\www\creptoCurrency-2nd-repo\wp-cron.php:188
+[05-Nov-2022 16:44:47 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:565
+[05-Nov-2022 16:44:47 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 16:44:47 UTC] PHP   5. wp_update_plugins() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 16:44:47 UTC] PHP   6. trigger_error() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php:447
+[05-Nov-2022 16:44:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php on line 728
+[05-Nov-2022 16:44:47 UTC] PHP Stack trace:
+[05-Nov-2022 16:44:47 UTC] PHP   1. {main}() C:\wamp64\www\creptoCurrency-2nd-repo\wp-cron.php:0
+[05-Nov-2022 16:44:47 UTC] PHP   2. do_action_ref_array() C:\wamp64\www\creptoCurrency-2nd-repo\wp-cron.php:188
+[05-Nov-2022 16:44:47 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:565
+[05-Nov-2022 16:44:47 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 16:44:47 UTC] PHP   5. wp_update_themes() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 16:44:47 UTC] PHP   6. trigger_error() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php:728
