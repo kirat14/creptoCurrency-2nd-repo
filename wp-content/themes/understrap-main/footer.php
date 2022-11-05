@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 						<div class="col">
-							<h4 class="">Contact Us</h4>
+							<h4 class="text-secondary">Contact Us</h4>
 							<div>
 								<ul class="p-0">
 									<li class="list-unstyled p-0 mb-3 ps-3 ms-3 position-relative"><i class="fa-solid fa-phone text-secondary position-absolute end-100"></i>+1 832.913.5276</li>
@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 						<div class="col">
-							<h4 class="">Our Company</h4>
+							<h4 class="text-secondary">Our Company</h4>
 							<div>
 								<ul class="p-0">
 									<li class="list-unstyled p-0 border-0 mb-3"><a class="text-secondary" href="#">Home</a></li>
@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						
 						<div class="col">
-							<h4 class="">Subscribe to our newsletter</h4>
+							<h4 class="text-secondary">Subscribe to our newsletter</h4>
 							<div class="mb-5">
 								<form action="">
 									<div class="input-group mb-3">

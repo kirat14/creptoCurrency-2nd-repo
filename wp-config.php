@@ -18,9 +18,18 @@
  * @package WordPress
  */
 
+ // Enable WP_DEBUG mode
+define('WP_DEBUG', true);
+// Enable Debug logging to the /wp-content/debug.log file
+define('WP_DEBUG_LOG', true);
+// Disable display of errors and warnings
+define('WP_DEBUG_DISPLAY', false);
+@ini_set('display_errors',0);
+define( 'SCRIPT_DEBUG', true );
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'new-project-yso' );
+define( 'DB_NAME', 'fsileads' );
 
 /** Database username */
 define( 'DB_USER', 'root' );

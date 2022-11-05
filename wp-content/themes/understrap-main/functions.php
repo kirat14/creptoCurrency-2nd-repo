@@ -27,6 +27,7 @@ $understrap_includes = array(
 	'/editor.php',                          // Load Editor functions.
 	'/block-editor.php',                    // Load Block Editor functions.
 	'/deprecated.php',                      // Load deprecated functions.
+	'/data-products-form.php',                   // yso custom functionalities.
 );
 
 // Load WooCommerce functions if WooCommerce is activated.
@@ -50,16 +51,3 @@ function crepto_currency_theme_support_title(){
 }
 
 add_action('after_setup_theme','crepto_currency_theme_support_title');
-
-function crepto_currency_register_styles(){
-	$version = wp_get_theme()->get('Version');
-	wp_enqueue_style('crepto_currency_theme_style', get_template_directory_uri() . '/css/theme.css', array(), $version, 'all');
-	// wp_enqueue_style('crepto_currency_bootstrap', get_template_directory_uri() . '/css/theme.css', array(), '1.0', 'all');
-	wp_enqueue_style('crepto_currency_fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css', array(), '6.2.0', 'all');
-	wp_enqueue_style('crepto_currency_google_font_1', 'https://fonts.googleapis.com', array(), '1.0', 'all');
-	wp_enqueue_style('crepto_currency_google_font_2', 'https://fonts.gstatic.com', array(), '1.0', 'all');
-	wp_enqueue_style('crepto_currency_google_font_3', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), '1.0', 'all');
-}
-
-
-add_action('wp_enqueue_scripts', 'crepto_currency_register_styles');

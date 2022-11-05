@@ -8,6 +8,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+
 if ( ! function_exists( 'understrap_scripts' ) ) {
 	/**
 	 * Load theme's JavaScript and CSS sources.
@@ -29,6 +30,8 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 
 		$css_version = $theme_version . '.' . filemtime( get_template_directory() . $theme_styles );
 		wp_enqueue_style( 'understrap-styles', get_template_directory_uri() . $theme_styles, array(), $css_version );
+		wp_enqueue_style('crepto_currency_fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css', array(), '6.2.0', 'all');
+		wp_enqueue_style('crepto_currency_poppins', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), '1.0', 'all');
 
 		wp_enqueue_script( 'jquery' );
 
