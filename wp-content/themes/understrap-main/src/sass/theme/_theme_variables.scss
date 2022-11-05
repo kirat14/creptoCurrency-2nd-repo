@@ -1,3 +1,17 @@
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1590px
+) !default;
+// scss-docs-end container-max-widths
+
 // custom colors
 
 $custom-width: 100px;
@@ -26,7 +40,19 @@ $primary: $highGreen;
 $secondary: $gray-900;
 $info:          $gray-500;
 
+$list-group-action-color: $white;
+
 $component-active-bg:         $primary;
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-color:                $gray-500;
+
+// scss-docs-start form-label-variables
+$form-label-margin-bottom:              .75rem;
+$form-label-font-size:                  1.125rem;
+$form-label-color:                      $white;
 
 // custom font family
 // $headings-font-family:        serif;
@@ -87,18 +113,14 @@ $spacers: (
   0: 0,
   1: $spacer * .25,
   2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 2.5,
+  3: $spacer * 1.25,
+  4: $spacer * 2.5, // 40px
   5: $spacer * 3.125, // 50px
 );
 
 
-
-// scss-docs-start form-input-variables
-
-$input-border-radius: 4px;
-$input-bg: transparent;
-// $input-padding-y: 0.75rem;
+// scss-docs-start headings-variables
+$headings-color: $white;
 
 
 // Buttons + Forms
@@ -109,38 +131,28 @@ $input-bg: transparent;
 $input-btn-padding-y:         1rem ;
 $input-btn-padding-x:         1.5rem ;
 $input-height: auto;
-
 $btn-padding-y:               1rem;
 $btn-padding-x:               3.125rem;
 $btn-font-size:               $input-btn-font-size;
-// $btn-line-height:             $input-btn-line-height !default;
 $btn-white-space:             nowrap;
-
 $input-group-addon-border-color:        $secondary;
 $input-group-addon-bg:                  $secondary;
 $input-group-addon-color: $white;
-// $input-border-width:        10px;
-
-// $btn-padding-y-sm:            $input-btn-padding-y-sm !default;
-// $btn-padding-x-sm:            $input-btn-padding-x-sm !default;
-// $btn-font-size-sm:            $input-btn-font-size-sm !default;
-
-// $btn-padding-y-lg:            $input-btn-padding-y-lg !default;
-// $btn-padding-x-lg:            $input-btn-padding-x-lg !default;
-// $btn-font-size-lg:            $input-btn-font-size-lg !default;
-
 $btn-border-width:            1px;
 
-// $btn-font-weight:             $font-weight-normal !default;
-// $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
-// $btn-focus-width:             $input-btn-focus-width !default;
-// $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
-// $btn-disabled-opacity:        .65 !default;
-// $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
+// scss-docs-start form-input-variables
+$input-border-radius: 4px;
+$input-bg: transparent;
+$input-padding-y: 0.65rem;
+$input-padding-x: 0.75rem;
+$input-border-color: $gray-500;
 
+// scss-docs-start form-check-variables
+$form-check-input-border:                 1px solid $gray-500;
 
-// $btn-link-hover-color:        $link-hover-color !default;
-// $btn-link-disabled-color:     $gray-600 !default;
+// scss-docs-start btn-variables
+$btn-padding-y:               $input-padding-y;
+$btn-padding-x:               2.8125rem;
 
 // Links
 //
