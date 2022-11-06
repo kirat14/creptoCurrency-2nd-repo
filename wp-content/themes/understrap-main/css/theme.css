@@ -14781,6 +14781,7 @@ figure.woocommerce-product-gallery__wrapper {
 /* Footer */
 .dark-mode h6, .dark-mode .h6, .dark-mode h5, .dark-mode .h5, .dark-mode h4, .dark-mode .h4, .dark-mode h3, .dark-mode .h3, .dark-mode h2, .dark-mode .h2, .dark-mode h1, .dark-mode .h1 {
   color: #222737;
+<<<<<<< HEAD
 }
 
 .back-top {
@@ -14826,4 +14827,6 @@ figure.woocommerce-product-gallery__wrapper {
   bottom: 0;
   left: 0;
   right: 0;
+=======
+>>>>>>> b7484fea9e991747ec127f8b6eb0b9afc6c60992
 }/*# sourceMappingURL=theme.css.map */

@@ -110,6 +110,7 @@ $container = get_theme_mod('understrap_container_type');
 <!-- =======================
 Footer START -->
 <footer class="pt-5 dark-mode bg-primary">
+<<<<<<< HEAD
     <div class="container col-xxl-8 mx-auto"> <!-- col-xxl-8: to shirnk more the margins on larger screens -->
         <!-- Row START -->
         <div class="row">
@@ -134,6 +135,25 @@ Footer START -->
                     <a class="" href="#"><i class="fa-brands fa-square-twitter h2"></i></a>    
                     </li>
 				</ul>
+=======
+    <div class="container col-xxl-8 mx-auto">
+        <!-- Row START -->
+        <div class="row g-4">
+
+            <!-- Widget 1 START -->
+            <div class="col-lg-3 d-flex align-items-center flex-column">
+                <!-- logo -->
+                <a class="mb-3" href="index.html">
+                    <img class="light-mode-item h-40px" src="<?php echo get_template_directory_uri() . '/img/footer-logo.png' ?>" alt="logo">
+                </a>
+
+                <!-- Social media icon -->
+                <div class="d-flex mx-auto">
+                    <a class="me-3" href="#"><i class="fa-brands fa-square-instagram h2"></i></a>
+                    <a class="me-3" href="#"><i class="fa-brands fa-facebook h2"></i></a>
+                    <a class="" href="#"><i class="fa-brands fa-square-twitter h2"></i></a>
+                </div>
+>>>>>>> b7484fea9e991747ec127f8b6eb0b9afc6c60992
             </div>
             <!-- Widget 1 END -->
 
@@ -221,9 +241,13 @@ Footer START -->
 <!-- =======================
 Footer END -->
 <!-- Back to top -->
+<<<<<<< HEAD
 <div class="back-top back-top-show">
     <i class="fa-solid fa-arrow-up position-absolute top-50 start-50 translate-middle"></i>
 </div>
+=======
+<div class="back-top back-top-show"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+>>>>>>> b7484fea9e991747ec127f8b6eb0b9afc6c60992
 
 <?php wp_footer(); ?>
 
