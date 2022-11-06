@@ -22,3 +22,4 @@
 [05-Nov-2022 16:44:47 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
 [05-Nov-2022 16:44:47 UTC] PHP   5. wp_update_themes() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
 [05-Nov-2022 16:44:47 UTC] PHP   6. trigger_error() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\update.php:728
+[06-Nov-2022 14:12:46 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
