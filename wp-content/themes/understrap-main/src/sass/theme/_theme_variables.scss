@@ -140,6 +140,7 @@ $input-group-addon-border-color:        $secondary;
 $input-group-addon-bg:                  $secondary;
 $input-group-addon-color: $white;
 $btn-border-width:            1px;
+$input-btn-font-size-sm: 1rem;
 
 // scss-docs-start form-input-variables
 $input-border-radius: 4px;
@@ -181,5 +182,13 @@ $carousel-indicator-height: 10px;
 // Alert
 $alert-border-width: 0;
 $alert-border-radius: 15px;
+
+
+// Navs
+
+// scss-docs-start nav-variables
+$nav-link-color:                    $secondary;
+
+$hr-height:                   2px;
 
 

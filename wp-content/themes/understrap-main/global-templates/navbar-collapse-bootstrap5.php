@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Header Navbar (bootstrap5)
  *
@@ -6,41 +7,41 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
-$container = get_theme_mod( 'understrap_container_type' );
+$container = get_theme_mod('understrap_container_type');
 ?>
 
-<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
+<nav id="main-nav" class="navbar navbar-expand-md navbar-dark" aria-labelledby="main-nav-label">
 
 	<h2 id="main-nav-label" class="screen-reader-text">
-		<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
+		<?php esc_html_e('Main Navigation', 'understrap'); ?>
 	</h2>
 
 
-	<div class="<?php echo esc_attr( $container ); ?>">
+	<div class="<?php echo esc_attr($container); ?>">
 
 		<!-- Your site title as branding in the menu -->
-		<?php if ( ! has_custom_logo() ) { ?>
+		<?php if (!has_custom_logo()) { ?>
 
-			<?php if ( is_front_page() && is_home() ) : ?>
+			<?php if (is_front_page() && is_home()) : ?>
 
-				<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url(home_url('/')); ?>" itemprop="url"><?php bloginfo('name'); ?></a></h1>
 
 			<?php else : ?>
 
-				<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+				<a class="navbar-brand" rel="home" href="<?php echo esc_url(home_url('/')); ?>" itemprop="url"><?php bloginfo('name'); ?></a>
 
 			<?php endif; ?>
 
-			<?php
+		<?php
 		} else {
 			the_custom_logo();
 		}
 		?>
 		<!-- end custom logo -->
 
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
@@ -49,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		wp_nav_menu(
 			array(
 				'theme_location'  => 'primary',
-				'container_class' => 'collapse navbar-collapse',
+				'container_class' => 'collapse navbar-collapse alert-dark',
 				'container_id'    => 'navbarNavDropdown',
 				'menu_class'      => 'navbar-nav ms-auto',
 				'fallback_cb'     => '',
@@ -59,7 +60,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			)
 		);
 		?>
-
+		<a class="btn text-white fs-sm order-lg-3 d-none d-sm-inline-flex me-1" href="#" target="_blank" rel="noopener">Sign in</a>
+		<a class="btn bg-white rounded-pill fs-sm order-lg-3 d-none d-sm-inline-flex" href="#" target="_blank" rel="noopener">Sign up</a>
 	</div><!-- .container(-fluid) -->
 
 </nav><!-- .site-navigation -->

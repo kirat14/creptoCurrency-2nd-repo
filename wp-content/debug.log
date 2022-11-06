@@ -1,0 +1,60 @@
+[05-Nov-2022 20:55:07 UTC] PHP Warning:  filemtime(): stat failed for C:\wamp64\www\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/css/theme.css in C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\inc\enqueue.php on line 31
+[05-Nov-2022 20:55:07 UTC] PHP Stack trace:
+[05-Nov-2022 20:55:07 UTC] PHP   1. {main}() C:\wamp64\www\creptoCurrency-2nd-repo\index.php:0
+[05-Nov-2022 20:55:07 UTC] PHP   2. require() C:\wamp64\www\creptoCurrency-2nd-repo\index.php:17
+[05-Nov-2022 20:55:07 UTC] PHP   3. require_once() C:\wamp64\www\creptoCurrency-2nd-repo\wp-blog-header.php:19
+[05-Nov-2022 20:55:07 UTC] PHP   4. include() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template-loader.php:106
+[05-Nov-2022 20:55:07 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\front-page.php:1
+[05-Nov-2022 20:55:07 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\general-template.php:48
+[05-Nov-2022 20:55:07 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/header.php', $require_once = TRUE, $args = []) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template.php:718
+[05-Nov-2022 20:55:07 UTC] PHP   8. require_once() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template.php:783
+[05-Nov-2022 20:55:07 UTC] PHP   9. wp_head() C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\header.php:25
+[05-Nov-2022 20:55:07 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\general-template.php:3043
+[05-Nov-2022 20:55:07 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:517
+[05-Nov-2022 20:55:07 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 20:55:07 UTC] PHP  13. wp_enqueue_scripts('') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 20:55:07 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\script-loader.php:2180
+[05-Nov-2022 20:55:07 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:517
+[05-Nov-2022 20:55:07 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 20:55:07 UTC] PHP  17. understrap_scripts('') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 20:55:07 UTC] PHP  18. filemtime($filename = 'C:\\wamp64\\www\\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/css/theme.css') C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\inc\enqueue.php:31
+[05-Nov-2022 22:06:04 UTC] PHP Warning:  filemtime(): stat failed for C:\wamp64\www\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/css/theme.css in C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\inc\enqueue.php on line 31
+[05-Nov-2022 22:06:04 UTC] PHP Stack trace:
+[05-Nov-2022 22:06:04 UTC] PHP   1. {main}() C:\wamp64\www\creptoCurrency-2nd-repo\index.php:0
+[05-Nov-2022 22:06:04 UTC] PHP   2. require() C:\wamp64\www\creptoCurrency-2nd-repo\index.php:17
+[05-Nov-2022 22:06:04 UTC] PHP   3. require_once() C:\wamp64\www\creptoCurrency-2nd-repo\wp-blog-header.php:19
+[05-Nov-2022 22:06:04 UTC] PHP   4. include() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template-loader.php:106
+[05-Nov-2022 22:06:04 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\front-page.php:1
+[05-Nov-2022 22:06:04 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\general-template.php:48
+[05-Nov-2022 22:06:04 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/header.php', $require_once = TRUE, $args = []) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template.php:718
+[05-Nov-2022 22:06:04 UTC] PHP   8. require_once() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template.php:783
+[05-Nov-2022 22:06:04 UTC] PHP   9. wp_head() C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\header.php:25
+[05-Nov-2022 22:06:04 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\general-template.php:3043
+[05-Nov-2022 22:06:04 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:517
+[05-Nov-2022 22:06:04 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 22:06:04 UTC] PHP  13. wp_enqueue_scripts('') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 22:06:04 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\script-loader.php:2180
+[05-Nov-2022 22:06:04 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:517
+[05-Nov-2022 22:06:04 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 22:06:04 UTC] PHP  17. understrap_scripts('') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 22:06:04 UTC] PHP  18. filemtime($filename = 'C:\\wamp64\\www\\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/css/theme.css') C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\inc\enqueue.php:31
+[05-Nov-2022 22:06:18 UTC] PHP Warning:  filemtime(): stat failed for C:\wamp64\www\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/css/theme.css in C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\inc\enqueue.php on line 31
+[05-Nov-2022 22:06:18 UTC] PHP Stack trace:
+[05-Nov-2022 22:06:18 UTC] PHP   1. {main}() C:\wamp64\www\creptoCurrency-2nd-repo\index.php:0
+[05-Nov-2022 22:06:18 UTC] PHP   2. require() C:\wamp64\www\creptoCurrency-2nd-repo\index.php:17
+[05-Nov-2022 22:06:18 UTC] PHP   3. require_once() C:\wamp64\www\creptoCurrency-2nd-repo\wp-blog-header.php:19
+[05-Nov-2022 22:06:18 UTC] PHP   4. include() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template-loader.php:106
+[05-Nov-2022 22:06:18 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\front-page.php:1
+[05-Nov-2022 22:06:18 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\general-template.php:48
+[05-Nov-2022 22:06:18 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/header.php', $require_once = TRUE, $args = []) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template.php:718
+[05-Nov-2022 22:06:18 UTC] PHP   8. require_once() C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\template.php:783
+[05-Nov-2022 22:06:18 UTC] PHP   9. wp_head() C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\header.php:25
+[05-Nov-2022 22:06:18 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\general-template.php:3043
+[05-Nov-2022 22:06:18 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:517
+[05-Nov-2022 22:06:18 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 22:06:18 UTC] PHP  13. wp_enqueue_scripts('') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 22:06:18 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\script-loader.php:2180
+[05-Nov-2022 22:06:18 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\plugin.php:517
+[05-Nov-2022 22:06:18 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:332
+[05-Nov-2022 22:06:18 UTC] PHP  17. understrap_scripts('') C:\wamp64\www\creptoCurrency-2nd-repo\wp-includes\class-wp-hook.php:308
+[05-Nov-2022 22:06:18 UTC] PHP  18. filemtime($filename = 'C:\\wamp64\\www\\creptoCurrency-2nd-repo/wp-content/themes/understrap-main/css/theme.css') C:\wamp64\www\creptoCurrency-2nd-repo\wp-content\themes\understrap-main\inc\enqueue.php:31
