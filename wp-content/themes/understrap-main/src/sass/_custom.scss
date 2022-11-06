@@ -207,24 +207,31 @@
 // custom carousel
 .med-custom-carousel{
     padding-top: 30px;
-    li {
-        height: 0.625rem;
-        width: 0.625rem;
+    .carousel-indicators {
+        li {
+        &.active{
+            background:#728487 !important;
+        }
+        background: #4E595B;
+        height: 1rem;
+        width: 1rem;
         border-radius: 50%;
+        }
+        gap: 1.4rem;
+        bottom: 1rem !important;
     }
 } 
     
 .carousel-control-prev,
 .carousel-control-next{
-    top: 1rem;
     width: 1.5%;
     z-index: 10;
 }
 .carousel-control-next{
-    right: 45%;
+    right: 40%;
 }
 .carousel-control-prev{
-    left: 45%;
+    left: 40%;
 }
 
 // position top left light
@@ -311,4 +318,25 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     left: 0;
     right: 0;
 }
+}
+
+// responsive font-sizes small screens
+h1{
+    @media (max-width: 992px){
+        span{
+            color: $primary;
+        }
+    }
+}
+h3{
+    @media (max-width: 992px){
+        font-size: calc($h4-font-size + 1.25vw);
+    }
+}
+
+// custom fontawesome check icon
+.fa-check{
+    background: $primary;
+    padding: 3px !important;
+    border-radius: 50%;
 }

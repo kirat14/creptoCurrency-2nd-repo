@@ -12,30 +12,30 @@
         </div>
         <div class="container">
             <div class="row pt-5">
-                <div class="col-lg-5 pb-5">
+                <div class="col-lg-6 col-xl-5 pb-5">
                     <div>
                         <h1 class="text-center text-lg-start  me-lg-5">Increase Your Sales With Our High Quality <span class="">Leads</span></h1>
                         <p class="text-center text-lg-start w-75 m-auto m-lg-0">There are over 30 million Small Businesses in the United States. Knowing their financial and insurance needs is critical to your wining their business.</p>
                         <div class="d-none d-lg-block mt-4 mb-4">
                             <ul class="list-group list-group-horizontal p-0 display-6">
-                                <li class="list-group-item"> <span><i class="fa-solid fa-check text-primary me-2 pe-2"></i></span> Targeted Data</li>
-                                <li class="list-group-item" style=""><i class="fa-solid fa-circle-check text-primary me-2 pe-2"></i>Quality Leads</li>
-                                <li class="list-group-item" style=""><i class="fa-solid fa-circle-check text-primary me-2 pe-2"></i>Right Party Contacts</li>
+                                <li class="list-group-item"> <span><i class="fa-solid fa-check text-secondary me-2 pe-2"></i></span> Targeted Data</li>
+                                <li class="list-group-item"> <span><i class="fa-solid fa-check text-secondary me-2 pe-2"></i></span></i>Quality Leads</li>
+                                <li class="list-group-item"> <span><i class="fa-solid fa-check text-secondary me-2 pe-2"></i></span></i>Right Party Contacts</li>
                             </ul>
                         </div>
                         <div class="mt-4 text-center text-lg-start">
                             <button type="button" class="btn btn-primary rounded-pill"><a class="text-secondary" href="#">Learn More<i class="fa-solid fa-arrow-right-long ms-3"></i></a></button>
                         </div>
-                        <div class="d-lg-flex flex-row position-relative mt-5">
-                            <div class="p-0 me-lg-1 text-center text-lg-start mt-4">
+                        <div class="d-flex flex-row position-relative mt-5 px-lg-0 justify-content-center justify-content-lg-start">
+                            <div class="p-0 me-lg-1 text-start mt-4">
                                 <h3 class="text-primary mb-0 me-lg-5">6Millions</h3>
                                 <p class="display-4">Benefited Businesses</p>
                             </div>
-                            <div class="p-0 mx-lg-5 text-center text-lg-start mt-4">
+                            <div class="p-0 mx-lg-5 text-start mt-4">
                                 <h3 class="text-primary mb-0 me-lg-5 pe-2">$280B</h3>
                                 <p class="display-4">PPP Loans Funded</p>
                             </div>
-                            <div class="p-0 me-lg-5 text-center text-lg-start mt-4">
+                            <div class="p-0 me-lg-5 text-start mt-4">
                                 <h3 class="text-primary mb-0 me-lg-5 pe-2">$416.3B</h3>
                                 <p class="display-4 fw-normal">Emergency Relief Aid</p>
                             </div>
