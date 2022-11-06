@@ -263,7 +263,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color: $secondary;
 }}
 
-<<<<<<< HEAD
+
 .back-top {
     cursor: pointer;
     position: fixed !important;
@@ -312,7 +312,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     left: 0;
     right: 0;
 }
-=======
+
 
 // responsive font-sizes small screens
 h1{
@@ -329,5 +329,4 @@ h3{
     @media (max-width: 992px){
         font-size: calc($h4-font-size + 1.25vw);
     }
->>>>>>> b7484fea9e991747ec127f8b6eb0b9afc6c60992
 }

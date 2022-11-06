@@ -9,7 +9,7 @@
                     <img class="w-100" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/slider-ai.png" alt="">
                 </div>
             </div>
-<<<<<<< HEAD
+
         </div>
         <div class="container">
             <div class="row pt-5">
@@ -42,7 +42,7 @@
                             </div>
                             <div class="position-absolute med-bottom-light-position" style="z-index: -1;">
                                 <!-- <img src=http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/bottomLight.png> -->
-=======
+
 
             <div class="container position-relative zindex-5 pt-lg-0 px-0 px-lg-0">
                 <div class="row pt-5 mx-n4 mx-lg-n3">
@@ -81,7 +81,7 @@
                                         </div>
                                     </div>
                                 </div>
->>>>>>> b7484fea9e991747ec127f8b6eb0b9afc6c60992
+
                             </div>
                         </div>
                     </div>
