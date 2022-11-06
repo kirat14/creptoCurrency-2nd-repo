@@ -32,7 +32,6 @@ define("REQMESSAGE", "Required field!");
                     <div class="mt-5">
                         <button type="button" class="btn btn-primary bg-transparent text-primary"><a href="#">Learn More<i class="fa-solid fa-arrow-right-long ms-3"></i></a></button>
                     </div>
-                    
                 </div>
             </div>
 
