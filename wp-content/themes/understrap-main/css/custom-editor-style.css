@@ -45,11 +45,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.5rem + 3vw);
+  font-size: calc(1.40625rem + 1.875vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3.75rem;
+    font-size: 2.8125rem;
   }
 }
 
@@ -1138,7 +1138,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide .wp-block-cover__inner-cont
 }
 
 .editor-post-title .editor-post-title__input {
-  font-size: 3.75rem;
+  font-size: 2.8125rem;
   font-weight: 600;
 }
 
