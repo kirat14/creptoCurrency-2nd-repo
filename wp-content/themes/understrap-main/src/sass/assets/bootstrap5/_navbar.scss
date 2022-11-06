@@ -75,7 +75,7 @@
 .navbar-nav {
   display: flex;
   flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
-  padding-left: 0;
+  padding: .75rem 1.25rem;
   margin-bottom: 0;
   list-style: none;
 
@@ -114,6 +114,10 @@
   // For always expanded or extra full navbars, ensure content aligns itself
   // properly vertically. Can be easily overridden with flex utilities.
   align-items: center;
+  background-color: $secondary;
+  margin-top: 1rem;
+  border: 1px solid $gray-500;
+  border-radius: 15px;
 }
 
 // Button for toggling the navbar when in its collapsed state
@@ -168,7 +172,14 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
 
+        .navbar-collapse {
+          margin-top: 0;
+          border: 0 !important;
+          background-color: transparent !important;
+        }
+
         .navbar-nav {
+          padding: 2rem 0;
           flex-direction: row;
 
           .dropdown-menu {

@@ -110,23 +110,30 @@ $container = get_theme_mod('understrap_container_type');
 <!-- =======================
 Footer START -->
 <footer class="pt-5 dark-mode bg-primary">
-    <div class="container col-xxl-8 mx-auto">
+    <div class="container col-xxl-8 mx-auto"> <!-- col-xxl-8: to shirnk more the margins on larger screens -->
         <!-- Row START -->
-        <div class="row g-4">
+        <div class="row">
 
             <!-- Widget 1 START -->
-            <div class="col-lg-3 d-flex align-items-center flex-column">
+            <div class="col-lg-3">
                 <!-- logo -->
                 <a class="mb-3" href="index.html">
-                    <img class="light-mode-item h-40px" src="<?php echo get_template_directory_uri() . '/img/footer-logo.png' ?>" alt="logo">
+                    <img class="mb-1" src="<?php echo get_template_directory_uri() . '/img/footer-logo.png' ?>" alt="logo">
                 </a>
 
                 <!-- Social media icon -->
-                <div class="d-flex mx-auto">
-                    <a class="me-3" href="#"><i class="fa-brands fa-square-instagram h2"></i></a>
-                    <a class="me-3" href="#"><i class="fa-brands fa-facebook h2"></i></a>
-                    <a class="" href="#"><i class="fa-brands fa-square-twitter h2"></i></a>
-                </div>
+
+                <ul class="list-inline mb-0 mt-2">
+					<li class="list-inline-item ms-1 ps-3"> 
+                        <a class="me-2" href="#"><i class="fa-brands fa-square-instagram h2"></i></a>    
+                    </li>
+					<li class="list-inline-item"> 
+                        <a class="me-2" href="#"><i class="fa-brands fa-facebook h2"></i></a>
+                    </li>
+					<li class="list-inline-item"> 
+                    <a class="" href="#"><i class="fa-brands fa-square-twitter h2"></i></a>    
+                    </li>
+				</ul>
             </div>
             <!-- Widget 1 END -->
 
@@ -214,7 +221,9 @@ Footer START -->
 <!-- =======================
 Footer END -->
 <!-- Back to top -->
-<div class="back-top back-top-show"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+<div class="back-top back-top-show">
+    <i class="fa-solid fa-arrow-up position-absolute top-50 start-50 translate-middle"></i>
+</div>
 
 <?php wp_footer(); ?>
 

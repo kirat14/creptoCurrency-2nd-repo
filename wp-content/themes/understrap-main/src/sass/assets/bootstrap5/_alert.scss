@@ -51,6 +51,9 @@
     $alert-color: mix($value, color-contrast($alert-background), abs($alert-color-scale));
   }
   .alert-#{$state} {
+    @if($state == "dark"){
+      $alert-border: $gray-700;
+    }
     @include alert-variant($alert-background, $alert-border, $alert-color);
   }
 }
