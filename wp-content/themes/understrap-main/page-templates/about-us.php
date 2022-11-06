@@ -36,7 +36,7 @@ define("REQMESSAGE", "Required field!");
             </div>
 
             <div class="col-12 col-lg-6 mt-3 mt-sm-0">
-                <img class="mx-auto d-block" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/leads.png" alt="">
+                <img class="mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/leads.png" alt="">
 
             </div>
         </div>
@@ -44,7 +44,7 @@ define("REQMESSAGE", "Required field!");
 
         <div class="row mb-md-5 pt-5">
         <div class="col-12 col-lg-6 mt-3 mt-sm-0">
-                <img class="mx-auto d-block" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/data-analyst.png" alt="">
+                <img class="mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/data-analyst.png" alt="">
             </div>
 
             <div class="col-12 col-lg-6 d-flex align-items-center order-first order-sm-last ">

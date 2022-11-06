@@ -6,7 +6,7 @@
                 <div class="offset-lg-5 col-lg-7 position-relative pe-0">
 
 
-                    <img class="w-100" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/slider-ai.png" alt="">
+                    <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/slider-ai.png" alt="">
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
                                 <p class="display-4 fw-normal">Emergency Relief Aid</p>
                             </div>
                             <div class="position-absolute med-bottom-light-position" style="z-index: -1;">
-                                <!-- <img src=http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/bottomLight.png> -->
+                                <!-- <img src=<?php echo get_template_directory_uri(); ?>/img/bottomLight.png> -->
                             </div>
                         </div>
                     </div>

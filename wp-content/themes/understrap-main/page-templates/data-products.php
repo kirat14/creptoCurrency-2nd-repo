@@ -22,7 +22,7 @@ define("REQMESSAGE", "Required field!");
 
         <div class="row mb-md-5 pt-5">
             <div class="col-12 col-lg-6">
-                <img class="mx-auto d-block" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/two-robot-analysis.png" alt="">
+                <img class="mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/two-robot-analysis.png" alt="">
 
             </div>
             <div class="col-12 col-lg-6 mt-3 mt-sm-0">
@@ -52,7 +52,7 @@ define("REQMESSAGE", "Required field!");
             </div>
 
             <div class="col-12 col-lg-6 order-first order-sm-last">
-                <img class="mx-auto d-block" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/data-analyst.png" alt="">
+                <img class="mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/data-analyst.png" alt="">
             </div>
         </div>
 
@@ -77,19 +77,19 @@ define("REQMESSAGE", "Required field!");
             <div class="row justify-content-center align-items-center">
                 <!-- Image -->
                 <div class="col-12 col-sm-2 mb-3 mb-sm-0">
-                    <img src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/hubspot.png" class="d-block mx-auto" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/hubspot.png" class="d-block mx-auto" alt="">
                 </div>
                 <!-- Image -->
                 <div class="col-12 col-sm-2 mb-3 mb-sm-0">
-                    <img src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/Salesforce-logo.png" class="d-block mx-auto" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Salesforce-logo.png" class="d-block mx-auto" alt="">
                 </div>
                 <!-- Image -->
                 <div class="col-12 col-sm-2 mb-3 mb-sm-0">
-                    <img src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/microsoft-dynamics-crm-logo.png" class="d-block mx-auto" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/microsoft-dynamics-crm-logo.png" class="d-block mx-auto" alt="">
                 </div>
                 <!-- Image -->
                 <div class="col-12 col-sm-2 mb-3 mb-sm-0">
-                    <img src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/download.png" class="d-block mx-auto" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/download.png" class="d-block mx-auto" alt="">
                 </div>
             </div>
         </div>

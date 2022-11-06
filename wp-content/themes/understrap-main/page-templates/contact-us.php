@@ -23,7 +23,7 @@ define("REQMESSAGE", "Required field!");
     <div class="row mb-md-5 pt-5">
         <h1 class="text-center mb-n3 mb-md-n4">Contact <span class="text-primary">Us</span></h1>
         <div class="mb-4">
-            <img class="mx-auto d-block" src="http://localhost/creptoCurrency-2nd-repo/wp-content/themes/understrap-main/img/contact-us.png" alt="">
+            <img class="mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/contact-us.png" alt="">
         </div>
     </div>
 
